@@ -24,7 +24,7 @@ weatherForm.addEventListener("submit", async event => {
         displayError("Please enter a city");
     }
 
-})
+});
 
 async function getWeatherData(city: string) {
 
